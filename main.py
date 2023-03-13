@@ -11,7 +11,7 @@ print(ru_local.START_MSG)
 # Get number of days since the set date.
 days = int(input(ru_local.INPUT_MSG))
 
-ml_dist = start_dist + days * voyager_speed
+ml_dist = start_dist + 24 * days * voyager_speed
 km_dist = ml_dist * 1.61
 astro_unit_dist = ml_dist * 1.07578 * 10**(-8)
 signal_time = ml_dist / signal_speed
