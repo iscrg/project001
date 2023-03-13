@@ -1,10 +1,10 @@
 import ru_local
 
 # Setting constants
-START_DIST = 16637000000
-VOYAGER_SPEED = 38241
+START_DIST = 16_637_000_000
+VOYAGER_SPEED = 38_241
 # Conversion from meters per second to miles per hour.
-SIGNAL_SPEED = 299792458 * 2.236936  
+SIGNAL_SPEED = 299_792_458 * 2.236936  
 
 print(ru_local.START_MSG)
 
