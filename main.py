@@ -3,7 +3,8 @@ import ru_local
 # Setting constants
 start_dist = 16637000000
 voyager_speed = 38241
-signal_speed = 299792458 * 2.236936  # Conversion from meters per second to miles per hour.
+# Conversion from meters per second to miles per hour.
+signal_speed = 299792458 * 2.236936  
 
 print(ru_local.START_MSG)
 
